@@ -14,7 +14,7 @@ class Singleton {
     }
 
     // 获取单例的方法
-    public Singleton getInstance() {
+    public static Singleton getInstance() {
         // 第一次判断sInstance是否为空，用于判断是否需要同步，提高性能和效率
         if (sInstance == null) {
             // 使用synchronized修饰代码块，取Singleton的Class对象来作为锁对象
@@ -28,6 +28,10 @@ class Singleton {
         }
         // 返回sInstance
         return sInstance;
+    }
+
+    public static void main(String[] args) {
+        Singleton.getInstance();
     }
 
 }
