@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bd9a823-d69f-4231-91f8-550796d7bde0" name="Default Changelist" comment="" />
+    <list default="true" id="3bd9a823-d69f-4231-91f8-550796d7bde0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VolatileDemo/VolatileDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VolatileDemo/VolatileDemo.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +24,9 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1gBDGh7Z38wdWuSSZaoxhVcWzFa" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="D:/Android/Sdk" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -107,7 +113,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
