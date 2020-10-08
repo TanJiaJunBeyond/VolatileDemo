@@ -21,6 +21,7 @@ class VolatileDemo {
                     // 每个线程对value变量进行1000次自增操作
                     increase();
             });
+            // 启动线程
             threads[i].start();
         }
         // 主线程等待子线程运行结束
